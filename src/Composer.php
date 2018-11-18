@@ -61,7 +61,7 @@ class Composer
      * @param string $package
      * @return boolean
      */
-    public function has(string $package): boolean
+    public function has(string $package): bool
     {
         return array_has($this->section, $package);
     }
